@@ -1,0 +1,178 @@
+body {
+  direction: ltr;
+  font-family: 'Times New Roman', Times, serif, Helvetica, sans-serif;
+  color: #fff;
+  font-size: 1.25em; 
+  background-color: rgb(3, 3, 3);
+}
+
+header {
+  padding: 2%; 
+  box-shadow: 0 0 1%; 
+}
+
+nav {
+  background-color: #151515;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 999;
+}
+
+ul {
+  list-style: none;
+  margin-left: 4.5%;
+  padding: 0;
+  display: flex;
+}
+
+li {
+  margin-right: 2em;
+}
+
+a {
+  display: block;
+  color: #fff;
+  padding: 1em;
+  text-decoration: none;
+  font-size: 0.95em;
+  font-weight: bold;
+}
+
+a:hover {
+  background-color: #555;
+}
+
+#logo {
+  position: fixed;
+  top: 1%;
+  right: 2.5%;
+  z-index: 9999;
+}
+
+#logo img {
+  width: 8vw; 
+  height: auto;
+}
+
+h1 {
+  text-align: center;
+  padding-top: 10vw;
+}
+
+.gallery-container {
+  max-width: 25vw;
+  margin: 0 auto;
+}
+
+.selected-image {
+  padding-top: 0.5vw;
+  text-align: center;
+}
+
+.selected-image img {
+  max-width: 100%;
+  height: auto;
+  border: 0.5vw solid white;
+}
+
+.thumbnail-row {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 2vw;
+}
+
+.thumbnail {
+  flex-basis: 19%;
+}
+
+.thumbnail img {
+  width: 100%;
+  height: auto;
+  cursor: pointer;
+  transition: 0.5s;
+  border: 0.5vw solid white;
+}
+
+.thumbnail:hover {
+  transform: scale(1.1);
+}
+
+.navigation-buttons {
+  margin-top: 1vw;
+  text-align: center;
+}
+
+.navigation-buttons button {
+  font-size: 2vw;
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+  footer {
+    margin-top: 3.125em;
+    background-color: #151515;
+    color: #fff;
+    padding: 1.25em;
+    text-align: center;
+  }
+  
+  .bottom_menu {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1.25em;
+  }
+  
+  .bottom_menu ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .bottom_menu ul li {
+    display: inline-block;
+    margin-right: 0.625em;
+  }
+  
+  .bottom_menu ul li:last-child {
+    margin-right: 0;
+  }
+  
+  .bottom_menu ul li a {
+    display: flex;
+    align-items: center;
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  .bottom_menu ul li a:hover {
+    color: beige;
+  }
+  
+  .ikons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 0.625em;
+  }
+  
+  .ikons a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    text-decoration: none;
+    width: 2.5em;
+    height: 2.5em;
+    margin-right: 0.625em;
+  }
+  
+  .ikons a:last-child {
+    margin-right: 0;
+  }
+  
+  .ikons a i {
+    font-size: 1.5em;
+  }

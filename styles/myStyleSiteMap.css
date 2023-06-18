@@ -1,0 +1,170 @@
+body {
+  direction: ltr;
+  font-family: 'Times New Roman', Times, serif, Helvetica, sans-serif;
+  color: #fff;
+  font-size: 1.25em; 
+  background-color: rgb(3, 3, 3);
+}
+
+header {
+  padding: 2%; 
+  box-shadow: 0 0 1%; 
+}
+
+nav {
+  background-color: #151515;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 999;
+}
+
+ul {
+  list-style: none;
+  margin-left: 4.5%;
+  padding: 0;
+  display: flex;
+}
+
+li {
+  margin-right: 2em;
+}
+
+a {
+  display: block;
+  color: #fff;
+  padding: 1em;
+  text-decoration: none;
+  font-size: 0.95em;
+  font-weight: bold;
+}
+
+a:hover {
+  background-color: #555;
+}
+
+#logo {
+  position: fixed;
+  top: 1%;
+  right: 2.5%;
+  z-index: 9999;
+}
+
+#logo img {
+  width: 8vw; 
+  height: auto;
+}
+
+h1 {
+  text-align: center;
+  margin-top: 12vh;
+}
+
+.footer .container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.footer .row {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-wrap: wrap;
+}
+
+.footer-col {
+  flex: 1 1 15vw;
+  padding: 2vw;
+  display: inline-block;
+  text-align: left;
+  margin: 1vw;
+}
+
+.footer-col h4 {
+  color: #ffffff;
+  font-size: 1.8vw;
+  margin-bottom: 1vw;
+  padding-left: 2vw;
+}
+
+.footer-col ul {
+  list-style: none;
+  padding-left: 0.7vw;
+  margin: 0;
+  margin-top: 1vw;
+}
+
+.footer-col ul #footer_links5 {
+  margin-left: 12vw;
+}
+
+.footer-col ul #footer_links6 {
+  margin-left: 16vw;
+}
+
+.footer-col ul li {
+  margin-bottom: 0.5vw;
+}
+
+.footer-col ul li a {
+  color: #cccaca;
+  text-decoration: none;
+  display: inline-block;
+}
+
+.footer-col ul li a:hover {
+  color: #e3e3e3;
+}
+
+#contact {
+  padding-left: 14vw;
+}
+
+#about_us {
+  padding-left: 18vw;
+}
+
+
+footer {
+  margin-top: 3.125em;
+  background-color: #151515;
+  color: #fff;
+  padding: 1.25em;
+  text-align: center;
+}
+
+
+.ikons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 0.625em;
+}
+
+.ikons a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+  text-decoration: none;
+  width: 2.5em;
+  height: 2.5em;
+  margin-right: 0.625em;
+}
+
+.ikons a:last-child {
+  margin-right: 0;
+}
+
+.ikons a i {
+  font-size: 1.5em;
+}
+.center {
+  text-align: center;
+  margin-top: 2.5vh;
+  color: #ffffff;
+}
